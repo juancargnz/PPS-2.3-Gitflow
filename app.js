@@ -1,2 +1,3 @@
 console.log('Inicio del proyecto');
-// Inicio de la rama develop
+
+function validateTime(t) { if (t < 0) { return 'ERROR: Tiempo negativo detectado'; } return 'OK'; }
